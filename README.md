@@ -1,2 +1,1 @@
-# Advanced-course-JS
-Продвинутый курс JS
+Пhодвинутый курс JS
