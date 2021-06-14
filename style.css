@@ -1,0 +1,82 @@
+
+
+.header {
+
+flex-direction: row;
+
+}
+
+.search-button {
+    margin-left: auto;
+}
+
+.goods-search {
+  margin-left: auto;
+}
+
+.goods-list {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.goods-item {
+    border: 3px solid rgb(15, 15, 15);
+    width: 250px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 10px 10px;
+   
+}
+
+
+
+.cart-button {
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    padding-top: 7px;
+    color: #a675b3;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px 20px 20px 1430px;
+    font: normal 17px arial;
+    
+  }
+  
+  .index {
+    color: #a675b3;
+    line-height: 20px;
+    font: normal 22px arial;
+
+  }
+
+  h1 {
+    color: rgb(172, 19, 52);
+    line-height: 27px;
+    font: normal 27px arial;
+}
+  
+  
+ 
+  .cart-button:not(.active) {
+    box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+    background-image: linear-gradient(#3b2751, #271739);
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+  }
+  
+  .cart-button:not(.active):hover,
+  .cart-button:not(.active):focus {
+    transition: color 200ms linear, text-shadow 500ms linear;
+    color: #fff;
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+  }
+  .cart-button:not(:hover) {
+      transition: 0.6s;
+  }
+
+  
